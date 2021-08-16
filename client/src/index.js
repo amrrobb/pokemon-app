@@ -8,7 +8,7 @@ import client from './graphql/config'
 import {BrowserRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
-  <React.StrictMode>
+    <React.StrictMode>
     <ApolloProvider client={client} >
       <Router>
         <App />

@@ -1,2 +1,5 @@
 export {default as PokemonCard} from './PokemonCard'
 export {default as NavBar} from './NavBar'
+export {default as CatchButton} from './CatchButton'
+export {default as Modal} from './Modal'
+export {default as Loading} from './Loading'
