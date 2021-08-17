@@ -77,13 +77,13 @@ export default function Modal({image, name, id}) {
 
         <dialog id="mymodalcentered" className="bg-transparent z-0 relative w-screen h-screen">
             <div className="p-7 mmd:-p-3 flex justify-center items-center fixed left-0 top-0 w-full h-full bg-gray-900 bg-opacity-50 z-50 transition-opacity duration-300 opacity-0">
-                <div className="bg-white flex rounded-lg w-1/2 mmd:w-max msm:w-max">
+                <div className="bg-white flex justify-center rounded-lg w-1/2 mmd:w-max msm:w-max">
                     <div className="flex flex-col items-center">
-                        <div className="p-7 flex justify-between w-full">
-                            <div className="text-gray-900 font-bold text-lg">{message.title}</div>
-                            <svg onClick={() => modalClose('mymodalcentered')} className="ml-auto fill-current text-gray-700 w-5 h-5 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                        <div className="p-7 flex justify-between w-max">
+                            <div className="text-gray-900 font-bold text-2xl">{message.title}</div>
+                            {/* <svg onClick={() => modalClose('mymodalcentered')} className="ml-auto fill-current text-gray-700 w-5 h-5 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
                                 <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z" />
-                            </svg>
+                            </svg> */}
                         </div>
 
                         <div className="px-7 pb-3 normal-case " style={{"maxHeight": "40vh"}}>
@@ -122,7 +122,7 @@ export default function Modal({image, name, id}) {
                                     : null
                                 }
                                 <button type="button" onClick={() => modalClose('mymodalcentered')} className="bg-transparent hover:bg-gray-500 text-yellow-400 font-semibold hover:text-white py-2 px-4 border border-yellow-300 hover:border-transparent rounded">
-                                    Cancel
+                                    Close
                                 </button>
                             </div>
                             </form>

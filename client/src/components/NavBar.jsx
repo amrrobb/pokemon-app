@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 export default function NavBar(params) {
     return (
         <>
-        <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-yellow-300 to-[#DA7F8F] p-6">
+        <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-yellow-300 to-[#dd7387] p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
             <div className="w-10 mr-4">
                 <img src={pikachu} alt="" />

@@ -35,6 +35,13 @@ export default function Detail(params) {
                         </div>
                         <div className="ml-10 px-5 mmd:ml-0 mmd:px-2 msm:ml-0 msm:px-2">
                             <div className="mb-5 mmd:mt-16 msm:mt-16">
+                                <p className="text-xl">Weight: {data.pokemon.weight}   </p>
+                            </div>
+                            <div className="mb-5 mmd:mt-16 msm:mt-16">
+                                <p className="text-xl">Height:  {data.pokemon.height}  </p>
+                               
+                            </div>
+                            <div className="mb-5 mmd:mt-16 msm:mt-16">
                                 <p className="text-xl">Types: </p>
                             </div>
                                 <div className="flex justify-start gap-1 mmd:justify-center msm:justify-center">
